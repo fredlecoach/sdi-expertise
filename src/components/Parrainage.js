@@ -30,9 +30,9 @@ export default function Parrainage() {
       </div>
 
       <h3 className="text-center fw-bold mt-5 mb-5">Comment ça marche?</h3>
-      <div className="row row-cols-lg-3 text-center mb-5">
+      <div className="row row-cols-lg-3 text-center mb-5" style= {{ backgroundColor: '##f4f9fe'}}>
         <div className="col">
-          <i className="bi bi-mailbox-flag icon-parrainage fs-3"></i><br />
+          <i className="bi bi-send icon-parrainage fs-3"></i><br />
           <span className="fw-bold">Rien de plus facile</span><br />Envoyez votre lien de parrainage à votre ami pour une expertise. <br />C'est parti !
         </div>
         <div className="col">
@@ -41,7 +41,7 @@ export default function Parrainage() {
         </div>
         <div className="col">
           <i className="bi bi-cash-coin icon-parrainage fs-3"></i><br />
-          <p><span className="fw-bold">Vous gagnez 15€* </span><br />par personne parrainée *. <br />Facile !</p>
+          <p><span className="fw-bold">Vous gagnez 15€* </span><br />pour chaque parrainé(e) expertisé(e) *. <br />Facile !</p>
         </div>
       </div>
     </div>

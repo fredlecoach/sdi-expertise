@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Header(){
   return (
-    <div>
+    <div style={{backgroundColor: '#f4f9fe'}}>
           <nav className="navbar navbar-expand-lg header-nav navbar-fluid">
       <ul className="navbar-nav mr-auto d-flex justify-content-around w-100">
         <li className="nav-item">
