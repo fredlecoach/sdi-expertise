@@ -1,0 +1,11 @@
+.icon-parrainage{
+  color: purple;
+}
+.bouton{
+  background-color: purple;
+  color: white
+}
+.bouton:hover{
+  background-color: #debeec
+}
+
